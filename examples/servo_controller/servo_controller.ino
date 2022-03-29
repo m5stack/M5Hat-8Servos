@@ -2,7 +2,6 @@
 *******************************************************************************
 * Copyright (c) 2022 by M5Stack
 *                  Equipped with M5StickC sample source code
-* Visit the website for more information：https://docs.m5stack.com/en/core/gray
 *
 * describe: HAT 8SERVO.
 * date：2022/3/29
