@@ -10,7 +10,7 @@ Contains M5Stack-**HAT 8SERVO** related case programs.
 
 ## Related Link
 
-[Docment & Datasheet](https://docs.m5stack.com/en/hat/hat_8servos_1.1)
+[Document & Datasheet](https://docs.m5stack.com/en/hat/hat_8servos_1.1)
 
 ## License
 
