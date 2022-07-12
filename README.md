@@ -1,6 +1,8 @@
-# HAT 8SERVO
+# M5Hat-8Servos
 
 ## Overview
+
+### SKU:U076-B
 
 Contains M5Stack-**HAT 8SERVO** related case programs.
 
@@ -10,8 +12,8 @@ Contains M5Stack-**HAT 8SERVO** related case programs.
 
 ## Related Link
 
-[Document & Datasheet](https://docs.m5stack.com/en/hat/hat_8servos_1.1)
+[Document & Datasheet - M5Hat-8Servos](https://docs.m5stack.com/en/hat/hat_8servos_1.1)
 
 ## License
 
-[HAT 8SERVO - MIT](LICENSE)
+[M5Hat-8Servos - MIT](LICENSE)

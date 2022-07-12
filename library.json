@@ -1,5 +1,5 @@
 {
-  "name": "HAT_8SERVO",
+  "name": "M5Hat-8Servos",
   "description": "Library for M5Stack HAT 8SERVO",
   "keywords": "M5Stack HAT 8SERVO",
   "authors": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/m5stack/HAT_8SERVO.git"
+    "url": "https://github.com/m5stack/M5Hat-8Servos.git"
   },
   "version": "0.0.1",
   "frameworks": "arduino",

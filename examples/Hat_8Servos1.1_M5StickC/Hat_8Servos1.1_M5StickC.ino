@@ -2,19 +2,24 @@
 *******************************************************************************
 * Copyright (c) 2022 by M5Stack
 *                  Equipped with M5StickC sample source code
+*                          配套  M5StickC 示例源代码
+* Visit for more information: https://docs.m5stack.com/en/hat/hat_8servos_1.1
+* 获取更多资料请访问: https://docs.m5stack.com/zh_CN/hat/hat_8servos_1.1
 *
-* describe: HAT 8SERVO.
-* date：2022/3/29
+* Product: 8Servos HAT v1.1.
+* Date: 2022/07/12
 *******************************************************************************
   Control the running and release of the servo.
+  控制伺服机的运行和释放
 */
 
 #include <M5StickC.h>
 #include <M5GFX.h>
-#include "HAT_8SERVO.h"
+
+#include "Hat_8Servos.h"
 M5GFX display;
 M5Canvas canvas(&display);
-HAT_8SERVO drive;
+Hat_8Servos drive;
 bool release = false;
 
 void btn_task(void *arg) {

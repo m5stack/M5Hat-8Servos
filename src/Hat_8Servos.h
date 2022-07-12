@@ -1,15 +1,15 @@
-#ifndef _M5_HAT_8SERVO_H_
-#define _M5_HAT_8SERVO_H_
+#ifndef _HAT_8SERVOS_H_
+#define _HAT_8SERVOS_H_
 
 #include <Arduino.h>
 #include <Wire.h>
 
-#define M5_HAT_8SERVO_DEVICE_ADDR    0x36
-#define M5_HAT_8SERVO_SERVO_ANGLE_REG 0x00
-#define M5_HAT_8SERVO_SERVO_PULSE_REG 0x10
-#define M5_HAT_8SERVO_MOS_CTL_REG    0x30
+#define SERVOS_DEVICE_ADDR 0x36
+#define SERVOS_ANGLE_REG   0x00
+#define SERVOS_PULSE_REG   0x10
+#define SERVOS_MOS_CTL_REG 0x30
 
-class HAT_8SERVO {
+class Hat_8Servos {
    private:
     uint8_t _addr;
     TwoWire *_wire;
@@ -20,7 +20,7 @@ class HAT_8SERVO {
 
    public:
     bool begin(TwoWire *wire = &Wire, uint8_t sda = 0, uint8_t scl = 26,
-               uint8_t addr = M5_HAT_8SERVO_DEVICE_ADDR);
+               uint8_t addr = SERVOS_DEVICE_ADDR);
     bool setServoAngle(uint8_t index, uint8_t deg);
     bool setAllServoAngle(uint8_t deg);
     bool setServoPulse(uint8_t index, uint16_t pulse);
