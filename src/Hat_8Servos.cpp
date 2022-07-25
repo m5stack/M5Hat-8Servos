@@ -86,14 +86,14 @@ bool Hat_8Servos::setAllServoPulse(uint16_t pulse) {
 
 /*! @brief Turn on power to all servos.
     @return True if the set was successful, otherwise false.. */
-bool HAT_8SERVO::enableServoPower(uint8_t state) {
+bool Hat_8Servos::enableServoPower(uint8_t state) {
     uint8_t data = state;
     return writeBytes(_addr, SERVOS_MOS_CTL_REG, &data, 1);
 }
 
 /*! @brief Get the angle of a particular servo.
     @return Angle of a certain servo.. */
-uint8_t HAT_8SERVO::getServoAngle(uint8_t index) {
+uint8_t Hat_8Servos::getServoAngle(uint8_t index) {
     uint8_t data = 0;
     uint8_t reg  = SERVOS_ANGLE_REG + index;
     if (readBytes(_addr, reg, &data, 1)) {
@@ -105,7 +105,7 @@ uint8_t HAT_8SERVO::getServoAngle(uint8_t index) {
 
 /*! @brief Get the angle of a particular pulse.
     @return Pulse of a certain servo.. */
-uint16_t HAT_8SERVO::getServoPulse(uint8_t index) {
+uint16_t Hat_8Servos::getServoPulse(uint8_t index) {
     uint8_t data[2] = {0};
     uint8_t reg     = SERVOS_PULSE_REG + index;
     if (readBytes(_addr, reg, data, 2)) {
