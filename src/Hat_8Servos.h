@@ -3,8 +3,8 @@
  * @copyright Copyright (c) 2022 by M5Stack[https://m5stack.com]
  *
  * @Links [8Servos HAT v1.1](https://docs.m5stack.com/en/hat/hat_8servos_1.1)
- * @version  V0.0.1
- * @date  2022-07-12
+ * @version  V0.0.2
+ * @date  2022-07-25
  */
 #ifndef _HAT_8SERVOS_H_
 #define _HAT_8SERVOS_H_
